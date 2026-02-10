@@ -1,5 +1,7 @@
 # FCCU – SPC & Alarmmetriken (X̄-R + I‑MR) mit `pyshewhart` und Plotly
 
+Available via mybinder.org! [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lab-alpaka/FDD-in-process-automation/HEAD)
+
 Dieses Repository enthält ein didaktisch aufgebautes Jupyter-Notebook zur **Statistical Process Control (SPC)** in der Prozessautomation – mit Fokus auf:
 - **Phase‑I / Phase‑II** Vorgehen (Limits schätzen → Monitoring)
 - **X̄‑R‑Charts** (Subgruppen) und **I‑MR‑Charts** (Einzelwerte)
