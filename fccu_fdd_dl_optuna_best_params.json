@@ -1,0 +1,62 @@
+{
+  "LSTM-AE": {
+    "hidden": 96,
+    "dropout": 0.3,
+    "lr": 0.002,
+    "weight_decay": 0.0,
+    "batch_size": 32,
+    "n_layers": 1
+  },
+  "GRU-AE": {
+    "hidden": 64,
+    "dropout": 0.1,
+    "lr": 0.002,
+    "weight_decay": 0.0,
+    "batch_size": 32,
+    "n_layers": 3
+  },
+  "TCN": {
+    "hidden": 128,
+    "dropout": 0.3,
+    "lr": 0.002,
+    "weight_decay": 0.0,
+    "batch_size": 32,
+    "n_layers": 2,
+    "kernel_size": 7
+  },
+  "TransformerEnc": {
+    "hidden": 128,
+    "dropout": 0.0,
+    "lr": 0.002,
+    "weight_decay": 1e-05,
+    "batch_size": 32,
+    "n_layers": 1,
+    "n_heads": 2
+  },
+  "USAD": {
+    "hidden": 96,
+    "dropout": 0.0,
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "batch_size": 32,
+    "z_dim": 64
+  },
+  "OmniStyleVAE": {
+    "hidden": 32,
+    "dropout": 0.3,
+    "lr": 0.0005,
+    "weight_decay": 1e-05,
+    "batch_size": 32,
+    "n_layers": 2,
+    "z_dim": 64
+  },
+  "TranADLite": {
+    "hidden": 128,
+    "dropout": 0.3,
+    "lr": 0.002,
+    "weight_decay": 0.0,
+    "batch_size": 32,
+    "n_layers": 2,
+    "n_heads": 2
+  }
+}
